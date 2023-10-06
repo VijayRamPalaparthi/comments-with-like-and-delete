@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+.body-container {
+  width: 90%;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 45px;
+  font-weight: bold;
+  color: #475569;
+}
+.for-image {
+  display: flex;
+  justify-content: space-between;
+}
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+.para {
+  font-family: 'roboto';
+  font-size: 17px;
+  font-weight: bold;
+  color: #64748b;
+}
+.input {
+  border: 1px solid #cbd2d9;
+  width: 350px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.button {
+  background-color: #0284c7;
+  color: #dee0e3;
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  margin-top: 10px;
+  border-width: 0px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+}
+.line {
+  background-color: #cbd2d9;
+  height: 2px;
+  margin-top: 15px;
+}
+.no-of-comments-container {
+  display: flex;
+  align-items: center;
+}
+
+.count-bg {
+  background-color: #0284c7;
+  color: #dee0e3;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.name {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #64748b;
+}
+.comments-container {
+  list-style-type: none;
+  padding: 0px;
+}

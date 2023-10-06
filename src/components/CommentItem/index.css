@@ -1,0 +1,107 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-comment-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0px;
+}
+.top-container {
+  display: flex;
+  align-items: center;
+}
+.profile-container {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.letter {
+  color: #dee0e3;
+  font-size: 15px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.user-name {
+  font-size: 15px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #1e293b;
+  margin-left: 5px;
+}
+.post-time {
+  font-size: 12px;
+  font-family: 'roboto';
+  color: #94a3b8;
+  margin-left: 10px;
+}
+.written-comment {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 40px;
+  font-family: 'roboto';
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.like-button {
+  border: none;
+  background-color: transparent;
+}
+
+.liked-name {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #0284c7;
+}
+
+.like-name {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #94a3b8;
+}
+.like-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.like-container {
+  display: flex;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+.list-line {
+  background-color: #7e858e;
+  height: 2px;
+}
